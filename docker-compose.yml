@@ -23,5 +23,5 @@ services:
       MYSQL_DATABASE: hello
     volumes:
       - db_data:/var/lib/mysql
-  volumes:
+volumes:
     db_data:
