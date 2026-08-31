@@ -1,4 +1,4 @@
-servicess:
+services:
   web:
     build: .
     restart: unless-stopped
