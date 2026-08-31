@@ -56,7 +56,7 @@ def index():
         messages = cur.fetchall()
     conn.close()
 
-    html = "<h1>我的留言板</h1>"
+    html = "<h1>刘英杰的留言板</h1>"
     html += '<form method="post"><input name="content" placeholder="说点什么..." required>'
     html += '<button type="submit">留言</button></form><hr>'
     for m in messages:
