@@ -1,4 +1,4 @@
-from flask import Flask，request
+from flask import Flask, request
 import pymysql
 import os
 import time
@@ -65,5 +65,5 @@ def index():
 
 init_db()
 
-if __name__=="__main__":
+if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
